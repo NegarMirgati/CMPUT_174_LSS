@@ -3,6 +3,7 @@ Lost Student Support codes
 
 ## Usage
 
+### extract_lost_students
 Please do the following steps:
 
 0. Go to DocsDB -> Mark Posting and check `Post sections in separate reports` and `By Total` and download the html
@@ -16,6 +17,11 @@ Please do the following steps:
 8. Change the `col_names` variable at the top of the script according to step 1
 9. Check out the `is_lost` function and change it to match your desired criteria for what counts as a lost student.
 10. Check out the `change_quantile` function call. You can remove it or choose another grade item 
+
+### newly_joined_students
+To use this script, you need the two csv files containing the list of students from yesterday and today.
+The script simply compares the two lists and find all students that are in today's list and
+not in yesterday's list.
 
 ## Helpful Tricks
 
