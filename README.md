@@ -20,7 +20,7 @@ To get the list of students that did not submit a lab:
 1. Go to https://eclass.srv.ualberta.ca/mod/assign/view.php?id={lab-id}&action=grading (change lab-id to go to a specific lab's page)
 2. Under Options --> Filter, select Not submitted
 3. You'll get an HTML table that can be parsed. 
-4. Check out ![This extension](https://chrome.google.com/webstore/detail/table-capture/iebpjdmgckacbodjpijphcplhebcmeop) worked. 
+4. Check out [This extension](https://chrome.google.com/webstore/detail/table-capture/iebpjdmgckacbodjpijphcplhebcmeop) worked. 
 
 ## Requirements
 
