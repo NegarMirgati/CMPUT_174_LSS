@@ -5,13 +5,17 @@ Lost Student Support codes
 
 Please do the following steps:
 
-1. Download the eclass Roster
-2. Download the Reported Lost Students a csv file
-3. Download the previous week's Extracted Lost students Excelsheet
-4. Extract the list of students that didn't submit the last lab as a csv file ([more info about this](#helpful-tricks))
-5. Change the file names in main according to your own filenames 
-6. Check out the `is_lost` function and change it to match your desired criteria for what counts as a lost student.
-7. Check out the `change_quantile` function call. You can remove it or choose another grade item 
+0. Go to DocsDB -> Mark Posting and check `Post sections in separate reports` and `By Total` and download the html
+1. Copy the field names e.g., Student Id, CCid, Lab1, Lab2, ...
+2. Remove all the html tags from the html file to make it like a simple list of records 
+3. Download the eclass Roster
+4. Download the Reported Lost Students (by TAs) a csv file
+5. Download the previous week's Extracted Lost students Excelsheet
+6. Extract the list of students that didn't submit the last lab as a csv file ([more info about this](#helpful-tricks))
+7. Change the file names in the `main` function according to your own filenames 
+8. Change the `col_names` variable at the top of the script according to step 1
+9. Check out the `is_lost` function and change it to match your desired criteria for what counts as a lost student.
+10. Check out the `change_quantile` function call. You can remove it or choose another grade item 
 
 ## Helpful Tricks
 
